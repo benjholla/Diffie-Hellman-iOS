@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7372D84141BFE7300B632FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7372D83141BFE7300B632FD /* UIKit.framework */; };
+		C7372D86141BFE7300B632FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7372D85141BFE7300B632FD /* Foundation.framework */; };
+		C7372D88141BFE7300B632FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7372D87141BFE7300B632FD /* CoreGraphics.framework */; };
+		C7372D8E141BFE7300B632FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7372D8C141BFE7300B632FD /* InfoPlist.strings */; };
+		C7372D90141BFE7300B632FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7372D8F141BFE7300B632FD /* main.m */; };
+		C7372D94141BFE7400B632FD /* Diffie_Hellman_iPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7372D93141BFE7400B632FD /* Diffie_Hellman_iPadAppDelegate.m */; };
+		C7372D97141BFE7400B632FD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7372D95141BFE7400B632FD /* MainWindow.xib */; };
+		C7372D9A141BFE7400B632FD /* Diffie_Hellman_iPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7372D99141BFE7400B632FD /* Diffie_Hellman_iPadViewController.m */; };
+		C7372D9D141BFE7400B632FD /* Diffie_Hellman_iPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7372D9B141BFE7400B632FD /* Diffie_Hellman_iPadViewController.xib */; };
+		C7372DA4141C0EBB00B632FD /* diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DA3141C0EBB00B632FD /* diagram.png */; };
+		C7372DA6141C0EF700B632FD /* fribblesoftlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DA5141C0EF700B632FD /* fribblesoftlogo.png */; };
+		C7372DA8141C0EFE00B632FD /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DA7141C0EFE00B632FD /* refresh.png */; };
+		C7372DAB141C1CE400B632FD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DA9141C1CE400B632FD /* Icon.png */; };
+		C7372DAC141C1CE400B632FD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DAA141C1CE400B632FD /* Icon@2x.png */; };
+		C7372DB2141C1D0700B632FD /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DAD141C1D0700B632FD /* Icon-72.png */; };
+		C7372DB3141C1D0700B632FD /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DAE141C1D0700B632FD /* Icon-Small-50.png */; };
+		C7372DB4141C1D0700B632FD /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DAF141C1D0700B632FD /* Icon-Small.png */; };
+		C7372DB5141C1D0700B632FD /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7372DB0141C1D0700B632FD /* Icon-Small@2x.png */; };
+		C7372DB6141C1D0700B632FD /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = C7372DB1141C1D0700B632FD /* iTunesArtwork */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7372D7F141BFE7300B632FD /* Diffie-Hellman-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diffie-Hellman-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7372D83141BFE7300B632FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7372D85141BFE7300B632FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7372D87141BFE7300B632FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7372D8B141BFE7300B632FD /* Diffie-Hellman-iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diffie-Hellman-iPad-Info.plist"; sourceTree = "<group>"; };
+		C7372D8D141BFE7300B632FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7372D8F141BFE7300B632FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7372D91141BFE7300B632FD /* Diffie-Hellman-iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diffie-Hellman-iPad-Prefix.pch"; sourceTree = "<group>"; };
+		C7372D92141BFE7300B632FD /* Diffie_Hellman_iPadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Diffie_Hellman_iPadAppDelegate.h; sourceTree = "<group>"; };
+		C7372D93141BFE7400B632FD /* Diffie_Hellman_iPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diffie_Hellman_iPadAppDelegate.m; sourceTree = "<group>"; };
+		C7372D96141BFE7400B632FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C7372D98141BFE7400B632FD /* Diffie_Hellman_iPadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Diffie_Hellman_iPadViewController.h; sourceTree = "<group>"; };
+		C7372D99141BFE7400B632FD /* Diffie_Hellman_iPadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diffie_Hellman_iPadViewController.m; sourceTree = "<group>"; };
+		C7372D9C141BFE7400B632FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Diffie_Hellman_iPadViewController.xib; sourceTree = "<group>"; };
+		C7372DA3141C0EBB00B632FD /* diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diagram.png; sourceTree = "<group>"; };
+		C7372DA5141C0EF700B632FD /* fribblesoftlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fribblesoftlogo.png; sourceTree = "<group>"; };
+		C7372DA7141C0EFE00B632FD /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		C7372DA9141C1CE400B632FD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C7372DAA141C1CE400B632FD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C7372DAD141C1D0700B632FD /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C7372DAE141C1D0700B632FD /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		C7372DAF141C1D0700B632FD /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C7372DB0141C1D0700B632FD /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C7372DB1141C1D0700B632FD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7372D7C141BFE7300B632FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7372D84141BFE7300B632FD /* UIKit.framework in Frameworks */,
+				C7372D86141BFE7300B632FD /* Foundation.framework in Frameworks */,
+				C7372D88141BFE7300B632FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7372D74141BFE7300B632FD = {
+			isa = PBXGroup;
+			children = (
+				C7372DAD141C1D0700B632FD /* Icon-72.png */,
+				C7372DAE141C1D0700B632FD /* Icon-Small-50.png */,
+				C7372DAF141C1D0700B632FD /* Icon-Small.png */,
+				C7372DB0141C1D0700B632FD /* Icon-Small@2x.png */,
+				C7372DB1141C1D0700B632FD /* iTunesArtwork */,
+				C7372DA9141C1CE400B632FD /* Icon.png */,
+				C7372DAA141C1CE400B632FD /* Icon@2x.png */,
+				C7372DA7141C0EFE00B632FD /* refresh.png */,
+				C7372DA5141C0EF700B632FD /* fribblesoftlogo.png */,
+				C7372DA3141C0EBB00B632FD /* diagram.png */,
+				C7372D89141BFE7300B632FD /* Diffie-Hellman-iPad */,
+				C7372D82141BFE7300B632FD /* Frameworks */,
+				C7372D80141BFE7300B632FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7372D80141BFE7300B632FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7372D7F141BFE7300B632FD /* Diffie-Hellman-iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7372D82141BFE7300B632FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7372D83141BFE7300B632FD /* UIKit.framework */,
+				C7372D85141BFE7300B632FD /* Foundation.framework */,
+				C7372D87141BFE7300B632FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7372D89141BFE7300B632FD /* Diffie-Hellman-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C7372D92141BFE7300B632FD /* Diffie_Hellman_iPadAppDelegate.h */,
+				C7372D93141BFE7400B632FD /* Diffie_Hellman_iPadAppDelegate.m */,
+				C7372D95141BFE7400B632FD /* MainWindow.xib */,
+				C7372D98141BFE7400B632FD /* Diffie_Hellman_iPadViewController.h */,
+				C7372D99141BFE7400B632FD /* Diffie_Hellman_iPadViewController.m */,
+				C7372D9B141BFE7400B632FD /* Diffie_Hellman_iPadViewController.xib */,
+				C7372D8A141BFE7300B632FD /* Supporting Files */,
+			);
+			path = "Diffie-Hellman-iPad";
+			sourceTree = "<group>";
+		};
+		C7372D8A141BFE7300B632FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7372D8B141BFE7300B632FD /* Diffie-Hellman-iPad-Info.plist */,
+				C7372D8C141BFE7300B632FD /* InfoPlist.strings */,
+				C7372D8F141BFE7300B632FD /* main.m */,
+				C7372D91141BFE7300B632FD /* Diffie-Hellman-iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7372D7E141BFE7300B632FD /* Diffie-Hellman-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7372DA0141BFE7400B632FD /* Build configuration list for PBXNativeTarget "Diffie-Hellman-iPad" */;
+			buildPhases = (
+				C7372D7B141BFE7300B632FD /* Sources */,
+				C7372D7C141BFE7300B632FD /* Frameworks */,
+				C7372D7D141BFE7300B632FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diffie-Hellman-iPad";
+			productName = "Diffie-Hellman-iPad";
+			productReference = C7372D7F141BFE7300B632FD /* Diffie-Hellman-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7372D76141BFE7300B632FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = BenjaminsBox;
+			};
+			buildConfigurationList = C7372D79141BFE7300B632FD /* Build configuration list for PBXProject "Diffie-Hellman-iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7372D74141BFE7300B632FD;
+			productRefGroup = C7372D80141BFE7300B632FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7372D7E141BFE7300B632FD /* Diffie-Hellman-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7372D7D141BFE7300B632FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7372D8E141BFE7300B632FD /* InfoPlist.strings in Resources */,
+				C7372D97141BFE7400B632FD /* MainWindow.xib in Resources */,
+				C7372D9D141BFE7400B632FD /* Diffie_Hellman_iPadViewController.xib in Resources */,
+				C7372DA4141C0EBB00B632FD /* diagram.png in Resources */,
+				C7372DA6141C0EF700B632FD /* fribblesoftlogo.png in Resources */,
+				C7372DA8141C0EFE00B632FD /* refresh.png in Resources */,
+				C7372DAB141C1CE400B632FD /* Icon.png in Resources */,
+				C7372DAC141C1CE400B632FD /* Icon@2x.png in Resources */,
+				C7372DB2141C1D0700B632FD /* Icon-72.png in Resources */,
+				C7372DB3141C1D0700B632FD /* Icon-Small-50.png in Resources */,
+				C7372DB4141C1D0700B632FD /* Icon-Small.png in Resources */,
+				C7372DB5141C1D0700B632FD /* Icon-Small@2x.png in Resources */,
+				C7372DB6141C1D0700B632FD /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7372D7B141BFE7300B632FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7372D90141BFE7300B632FD /* main.m in Sources */,
+				C7372D94141BFE7400B632FD /* Diffie_Hellman_iPadAppDelegate.m in Sources */,
+				C7372D9A141BFE7400B632FD /* Diffie_Hellman_iPadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7372D8C141BFE7300B632FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7372D8D141BFE7300B632FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7372D95141BFE7400B632FD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7372D96141BFE7400B632FD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C7372D9B141BFE7400B632FD /* Diffie_Hellman_iPadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7372D9C141BFE7400B632FD /* en */,
+			);
+			name = Diffie_Hellman_iPadViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7372D9E141BFE7400B632FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C7372D9F141BFE7400B632FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7372DA1141BFE7400B632FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diffie-Hellman-iPad/Diffie-Hellman-iPad-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diffie-Hellman-iPad/Diffie-Hellman-iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7372DA2141BFE7400B632FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diffie-Hellman-iPad/Diffie-Hellman-iPad-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diffie-Hellman-iPad/Diffie-Hellman-iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7372D79141BFE7300B632FD /* Build configuration list for PBXProject "Diffie-Hellman-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7372D9E141BFE7400B632FD /* Debug */,
+				C7372D9F141BFE7400B632FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7372DA0141BFE7400B632FD /* Build configuration list for PBXNativeTarget "Diffie-Hellman-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7372DA1141BFE7400B632FD /* Debug */,
+				C7372DA2141BFE7400B632FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7372D76141BFE7300B632FD /* Project object */;
+}
